@@ -68,7 +68,8 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 500;
   cursor: pointer;
   background-color: hsl(0, 0%, 90%);
 }
@@ -79,4 +80,16 @@ button:hover {
 
 button:active {
   background-color: hsl(0, 0%, 70%);
+}
+
+.operand {
+  background-color: hsl(24, 83%, 50%);
+}
+
+.operand:hover {
+  background-color: hsl(24, 83%, 40%);
+}
+
+.operand:active {
+  background-color: hsl(24, 83%, 30%);
 }
